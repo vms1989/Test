@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.index-gallery {
+  width: 100%;
+  background-color: #fff;
+}
+
+.left .container-fluid {
+  padding: 0px;
+}
+
+.right .container-fluid {
+  padding: 0px;
+}
+
+.lahjakone {
+  display: block;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 100%;
+}
+
+.tuotteet {
+  display: block;
+  justify-content: space-around;
+}
+
+.left {
+  background-color: #fff;
+  padding: 0px 8% 20px 8%;
+}
+
+.left h2 {
+  color: rgb(172, 185, 16);
+  text-transform: uppercase;
+  font-family: Open Sans;
+}
+
+.left p {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+
+.right {
+  background-color: #fff;
+  padding: 20px 8% 0px 8%;
+}
+
+.left2 {
+  background-color: #fff;
+  margin: 0% 8% 4% 8%;
+  padding: 10px;
+  text-align: center;
+  object-position: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: #f3f3f3;
+}
+
+.center {
+  background-color: #fff;
+  margin: 0% 8% 4% 8%;
+  padding: 10px;
+  text-align: center;
+  object-position: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: #f3f3f3;
+}
+
+.right2 {
+  margin: 0% 8% 0% 8%;
+  padding: 10px;
+  text-align: center;
+  object-position: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: #f3f3f3;
+}
+
+.nimi {
+  height: 100px;
+}
+
+.nimi p {
+  text-decoration: none;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 14px;
+  padding: 16px 0px 0px 0px;
+}
+
+.hinta {
+  height: 20px;
+}
+
+.hinta b {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+
+.osta {
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+}
+
+.osta p {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+
+.btn {
+  border-radius: 24px;
+  background-color: rgb(172, 185, 16);
+}
+
+.btn p {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Open Sans;
+  padding: 8px 20px;
+  margin: 0px;
+}
+
+.lahjakortti {
+  padding-top: 16%;
+}
+
+.lahjakortti-teksti {
+  height: 120px;
+  padding-top: 16px;
+}
+
+.lahjakortti-teksti b {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+
+.bottom {
+  padding: 20px 8% 0px 8%;
+  margin-top: 0px;
+}
+
+.bottom p {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+
+.bottom a {
+  color: rgb(172, 185, 16);
+  text-decoration: underline;
+  font-family: Open Sans;
+  font-size: 14px;
+}
+
+@media(min-width: 768px) {
+
+  .tuotteet {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .lahjakone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .logo {
+    width: auto;
+    padding-top: 20px;
+  }
+
+  .left {
+    padding: 0% 0% 20px 10%;
+  }
+
+  .right {
+    padding: 20px 10% 20px 0%;
+  }
+
+  .left2 {
+    margin: 0% 1% 0% 8%;
+  }
+
+  .center {
+    margin: 0;
+  }
+
+  .right2 {
+    margin: 0% 8% 0% 1%;
+  }
+
+  .bottom {
+    padding: 20px 9.5% 0px 10%;
+  }
+
+}
