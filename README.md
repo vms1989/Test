@@ -1,2 +1,1 @@
-#Lahjakone
 This is lahjakone
