@@ -29,7 +29,6 @@
             <div class="container-fluid">
               <h2>Joululahjakone</h2>
               <p>Taitaentehty-verkkokaupan joululahjakone auttaa valitsemaan parhaat kotimaiset käsintehdyt lahjat</p>
-              <p>Testi</p>
             </div>
           </div>
         </div>
